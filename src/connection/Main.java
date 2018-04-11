@@ -12,6 +12,7 @@ public class Main {
            /* Statement statement = connection.createStatement();
             //statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery("SELECT * FROM customers");*/
+            System.out.println("Hello World");
             System.out.println("connected");
         } catch (SQLException e) {
             System.out.println("404 not found");
